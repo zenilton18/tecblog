@@ -1,0 +1,88 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-size: 1em;
+	font-family: "trebuchet MS","Helvetica", sans-serif;
+	background: #e6e6e6;
+}
+/* **** layout ******** */
+#cabecalho{
+	background-color:#FFBF00;
+	text-align: center;
+	padding: 15px;
+ 
+}
+#menu ,#logo{
+	padding:10px;
+}
+#area-prin{
+	margin: 0 auto;
+	width: 920px;
+	
+}
+#postagens{
+	
+	padding:10px;
+	width: 660px;
+	float: left;
+}
+.post{
+	background: white;
+	padding:10px;
+	margin-bottom: 20px;
+	
+}
+#coluna{
+	width: 240px;
+	float: right;
+}
+.conteudo-lateral{
+	background:white;
+	margin: 20px;
+
+}
+.post-lat{
+ background: white;
+ margin: 5px;
+ font-size: 0.8em;
+}
+#rodape{
+	clear: both;
+	background:#CCC;
+	text-align: center;
+	padding: 15px;
+}
+/* formataçao menu */
+h1{
+	font-size:2.5em;
+}
+.branco{
+	color: white;
+}
+h3{ color: #565656;
+	background: #CCC;
+	padding: 5px;
+}
+a{
+	text-decoration: none;
+	padding: 10px 15px;
+}
+ #menu a:link, #menu a:visited{
+	color: #FFF;
+}
+ #menu a:hover{
+	color: #FFBF00;
+	background: #FFF;
+}
+
+
+
+
+ul{
+	border: 4px red;
+	margin: px;
+	padding: 0px;
+	list-style: none;
+}
